@@ -1,0 +1,62 @@
+body{
+    background: #614BC3;
+   
+}
+
+
+.myimg{
+    display: flex;
+    position: absolute;
+    width: 20%;
+    height: 25%;
+    flex-shrink: 0;
+    border-radius: 56px;
+    margin-top: 13%;
+    margin-left: 15%;
+}
+
+h1{
+    color: #FFF;
+    font-family: Excon;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+h2{
+    color: #FFF;
+    font-family: Excon;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h3{
+    color: #000;
+    font-family: Excon;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+#rect1{
+    width: 266.437px;
+    height: 332.714px;
+    flex-shrink: 0;
+}
+
+#rect2{
+    background: #000;
+    width:128px; 
+    height: 51px;
+}
+
+#rect3{
+    border: 1px solid #000;
+    background: #33BBC5;
+    width:128px; 
+    height: 51px;
+}
