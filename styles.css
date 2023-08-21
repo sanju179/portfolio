@@ -1,5 +1,5 @@
 body{
-    background: #614BC3;
+    background: #FFF;
    
 }
 
@@ -16,7 +16,7 @@ body{
 }
 
 h1{
-    color: #FFF;
+    color: #000000;
     font-family: Excon;
     font-size: 32px;
     font-style: normal;
@@ -25,7 +25,7 @@ h1{
 }
 
 h2{
-    color: #FFF;
+    color: #000000;
     font-family: Excon;
     font-size: 30px;
     font-style: normal;
@@ -36,9 +36,9 @@ h2{
 h3{
     color: #000;
     font-family: Excon;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: normal;
     text-align: center;
 }
@@ -50,13 +50,45 @@ h3{
 
 #rect2{
     background: #000;
-    width:128px; 
-    height: 51px;
+    width:100px; 
+    height: 41px;
 }
 
 #rect3{
-    border: 1px solid #000;
+    border: 2px solid #000;
     background: #33BBC5;
-    width:128px; 
-    height: 51px;
+    width:100px; 
+    height: 41px;
 }
+
+#navbar {
+    overflow: hidden;
+    background-color: #f2efef;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
