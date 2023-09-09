@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- <div id="navbar"> -->
+        <nav class="absolute-nav-bar">
+    
+    <a href="javascript:void(0)"><h1 style="display: flex; position:absolute;margin-top: 20px; margin-left: 48px; width: 178px; flex-wrap: wrap;">Sanjeevini</h1></a></li>
+                <a href="javascript:void(0)">
+                    <div id="rect2" style=" display: flex; position: absolute; flex-wrap: wrap; margin-top: 2%; margin-left: 49%;"></div>
+                    <div id="rect3" style=" display: flex; position: absolute; flex-wrap: wrap; margin-top: 1.5%; margin-left: 48.5%;"></div>
+                    <h3 style="display: flex; position: absolute; margin-top: 2.25%; margin-left: 50%;">Home</h3> </a>
+    <a href="javascript:void(0)">
+                    <div id="rect2" style=" display: flex; position: absolute; flex-wrap: wrap; margin-top: 2%; margin-left: 61%;"></div>
+    <div id="rect3" style=" display: flex; position: absolute; flex-wrap: wrap; margin-top: 1.5%; margin-left: 60.5%;"></div>
+    <h3 style="display: flex; position: absolute; margin-top: 2.25%; margin-left: 61%;">About Me</h3> </a>
+    
+    <a href="javascript:void(0)">
+    <div id="rect2" style=" display: flex; position: absolute; flex-wrap: wrap; margin-top: 2%; margin-left: 73%;"></div>
+    <div id="rect3" style=" display: flex; position: absolute; flex-wrap: wrap; margin-top: 1.5%; margin-left: 72.5%;"></div>
+    <h3 style="display: flex; position: absolute; margin-top: 2.25%; margin-left: 73.5%;">Projects</h3></a>
+    
+    <a href="javascript:void(0)">
+    <div id="rect2" style=" display: flex; position: absolute; flex-wrap: wrap; margin-top: 2%; margin-left: 85%;"></div>
+    <div id="rect3" style=" display: flex; position: absolute; flex-wrap: wrap; margin-top: 1.5%; margin-left: 84.5%;"></div>
+    <h3 style="display: flex; position: absolute; margin-top: 2.25%; margin-left: 85.5%;">Contact</h3> </a>
+
+   <!--  </div> -->
+    
+</nav>
+
+    <div id="rect1" style="display: flex; position: absolute; background-color: black;
+    margin-left: 17%; margin-top: 13%"></div>
+
+    <div id="rect1" style="display: flex; position: absolute; background-color: #85E6C5;
+    margin-top: 12%; margin-left: 16%; border: 3px solid #000;"></div>
+
+    <img class="myimg" src="profile.jpg">
+
+    <h1 style="display:flex;
+    position: absolute;
+    color: #000000;
+    text-align: right;
+    font-family: Excon;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    right: 10%;
+    margin-top: 15%;">I'm Sanjeevini.</h1>
+
+    <h2 style="display: flex; position: absolute; right: 10%;
+    margin-top: 25%; text-align: right;">Currently pursuing my B. Tech.<br>Expected 2025.</h2>
+    <script> 
+        window.onscroll = function() {myFunction()};
+    
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+    
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+    
+    
+    <div id="rect1" style="display: flex; position:absolute; background-color: black;
+    right: 188px; top:137%;"></div>
+
+    <h2 style="display: flex; position: absolute; left: 10%;
+    margin-top: 66%; margin-right:50%;text-align: justify; font-size: 24px;">
+        I'm an undergraduate student,
+        currently pursuing my B.tech degree. I'm extremely inclined towards front-end development, but have also done interesting projects in Python. I enjoy experimenting
+        with ideas, inspired by several veterans in the industry.
+
+        I'm working on becoming a skilled professional in the field,
+        so I'm open to all opportunities^^ <br><br>
+        <!-- Feel free to look through my projects and contact me here. -->
+    </h2>
+
+    <div id="rect1" style="display: flex; position: absolute; background-color: #85E6C5; right: 200px; top:135%;"></div>
+    <img class="myimg2" src="profpicw.jpg">
+
+    <!-- Project 1 -->
+    <div id="prec2"></div>
+    <div id="prec1"></div>
+    <img src="cmsss.png" class="myimg3">
+    <h3 style="display: flex; position: absolute; right: 10%;
+    margin-top: 108%; margin-left:50%;text-align: justify; font-size: 18px;">
+        A comprehensible and easily navigable software was developed to help ease small scale clinics out of their 
+        traditional register system into today's world of convenience. With 3 user modes, admins can manage all 
+        the accounts of the clinic's staff, while the receptionists can admit a patient (old or new) for a 
+        consultation quickly, depending on their state of emergency. Doctors can enter medical data, view the 
+        patient queue and accordingly save time and resources. 
+        This software was developed in a scrum team.
+    </h3>
+
+    <!-- Project 2 -->
+    <div id="prec4"></div>
+    <div id="prec3"></div>
+    <h3 style="display: flex; position: absolute; left: 10%;
+    margin-top: 148%; margin-right:50%;text-align: justify; font-size: 18px;">
+        A traffic regulation application. A traffic regulation application. A traffic regulation application. 
+        A traffic regulation application. 
+        A traffic regulation application. A traffic regulation application. A traffic regulation application. 
+        A traffic regulation application. A traffic regulation application. A traffic regulation application. 
+        A traffic regulation application. A traffic regulation application. A traffic regulation application. 
+        A traffic regulation application. A traffic regulation application. A traffic regulation application. 
+    </h3>
+
+    <div id="footerbox"></div>
+
+    
+</body>
+</html>
