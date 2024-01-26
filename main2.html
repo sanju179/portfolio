@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link href="styles2.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> -->
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    
+<nav id="desktop-nav">
+    <div class="logo"><b>Sanjeevini</b></div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact me</a></li>
+            
+        </ul>
+    </div>
+</nav>
+<nav id="hamburger-nav">
+    <div class="logo">
+        <b>Sanjeevini</b>
+    </div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#Home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#AboutMe" onclick="toggleMenu()">About Me</a></li>
+            <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+    </div>
+
+</nav>
+
+<section id="Profile">
+    <div class="section_profilecontainer">
+        <div id="rect1" style="height: 320px; width: 250px; position: absolute; background-color: black;
+    margin-left: -1%; margin-top: 1%"></div>
+
+        <div id="rect1" style="height: 320px; width: 250px; position: absolute; background-color: #85E6C5;
+     border: 3px solid #000;"><img class="profile-picture" src="profile.jpg" alt="My picture"></div>
+
+        
+    <div class="opening-text">
+        <h1 style="display:flex;
+                    position: absolute;
+                    color: #000000;
+                    text-align: right;
+                    font-family: Excon;
+                    font-size: 48px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    right: 10%;">I'm Sanjeevini!</h1>
+        
+        <h2 style="display: flex; position: absolute; right: 10%;
+                   font-size: 28px; margin-top: 120px; text-align: right;">Currently pursuing my B. Tech.<br>Expected 2025.</h2>
+
+        <div id="socials-container">
+            <img class="icon" alt="my linked-in" src="static/linkedin.png">
+            <img class="icon-email" alt="my email" src="static/email.png">
+            <img class="icon" alt="my github profile" src="static/github.png">
+        </div>
+    </div>
+    </div>
+</section>
+
+<section id="about">
+        <div id="AboutMe">
+            <h1 style="display: flex; position: absolute; top: 110%; left: 45%">About Me</h1>
+        
+        <p class="about-text" >
+            I'm an undergraduate student,
+            currently pursuing my B.tech degree. I'm extremely inclined towards front-end development, but have also done interesting projects in Python. I enjoy experimenting
+            with ideas, inspired by several veterans in the industry.
+
+            I'm working on becoming a skilled professional in the field,
+            so I'm open to all opportunities^^ <br><br>
+            <!-- Feel free to look through my projects and contact me here. -->
+        </p>
+        <div id="rect1" style="right: 10%; top: 135%;
+        height: 270px; width: 270px; display: flex; position: absolute; background-color: #000;   border: 4px solid #000;">
+        <div id="rect1" style="
+       height: 270px;width: 270px; display: flex; position: absolute; background-color: #85E6C5;  border: 4px solid #000;"><img class="profile-picture2" src="profpicw.jpg"></div>    
+    </div>
+
+        
+        
+</div>
+</section>
+<div id="Project">
+<h1 style="display: flex; position: absolute; top: 210%; left: 47%">Projects</h1>
+
+<!-- Project 1 -->
+<div id="prec2"></div>
+<div id="prec1"></div>
+<img src="cmsss.png" class="myimg3">
+<h3 style="display: flex; position: absolute; right: 10%;
+margin-top: 112%; margin-left:53%;text-align: justify; font-size: 18px;">
+    A comprehensible and easily navigable software was developed to help ease small scale clinics out of their 
+    traditional register system into today's world of convenience. With 3 user modes, admins can manage all 
+    the accounts of the clinic's staff, while the receptionists can admit a patient (old or new) for a 
+    consultation quickly, depending on their state of emergency. Doctors can enter medical data, view the 
+    patient queue and accordingly save time and resources. 
+    This software was developed in a scrum team.
+</h3>
+
+<!-- Project 2 -->
+<div id="prec4"></div>
+<div id="prec3"></div>
+<img src="traffic.png" class="myimg4">
+<h3 style="display: flex; position: absolute; left: 10%;
+margin-top: 148%; margin-right:50%;text-align: justify; font-size: 18px;">
+    Developed a web application that incorporated front-end design, rerouting algorithms, 
+    Flask framework and real-time traffic data APIs to suggest optimal routes, based on an 
+    assumed dataset. Users can look up for the most time-efficient route from a source to a 
+    destination, which is entirely calculated based on real-time traffic in the area with 
+    factors such as distance and flow of traffic. 
+</h3>
+
+<!-- Project 3 -->
+<div id="prec6"></div>
+<div id="prec5"></div>
+<img src="music.jpg" class="myimg5">
+<h3 style="display: flex; position: absolute; right: 10%;
+margin-top: 180%; margin-left:53%;text-align: justify; font-size: 18px;">
+    Developed an application that generates melodies that dynamically adapt to the user's liking. 
+    Primarily utilises Genetic Algorithms to alter musical sequences, trains and predicts 
+    how well a user may like the generated melody using a Random Forest Classifier and 
+    incorporates Gradient Descent algorithms to calculate fitness of musical sequences.
+</h3>
+
+
+<script src="scripts.js"></script>
+</body>
+</html>

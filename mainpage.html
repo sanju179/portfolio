@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link href="styles.css" rel="stylesheet" />
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> -->
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    
+<nav id="desktop-nav">
+    <div class="logo"><b>Sanjeevini</b></div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact me</a></li>
+            
+        </ul>
+    </div>
+</nav>
+<nav id="hamburger-nav">
+    <div class="logo">
+        <b>Sanjeevini</b>
+    </div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#Home" onclick="toggleMenu()">Home</a></li>
+            <li><a href="#AboutMe" onclick="toggleMenu()">About Me</a></li>
+            <li><a href="#Projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+    </div>
+
+</nav>
+<div id="mainn">
+    <div id="rect1" style="height: 325px; width: 255px;display: flex; position: absolute; background-color: black;
+    margin-left: 16%; margin-top: 9.5%"></div>
+
+    <div id="rect1" style="height: 325px; width: 255px;display: flex; position: absolute; background-color: #85E6C5;
+    margin-top: 8.5%; margin-left: 17%; border: 3px solid #000;"></div>
+
+    <img class="myimg" src="profile.jpg">
+
+    <h1 style="display:flex;
+    position: absolute;
+    color: #000000;
+    text-align: right;
+    font-family: Excon;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    right: 10%;
+    margin-top: 10%;">I'm Sanjeevini.</h1>
+
+    <h2 style="display: flex; position: absolute; right: 10%;
+    margin-top: 18%; text-align: right;">Currently pursuing my B. Tech.<br>Expected 2025.</h2>
+    
+</div>    
+<div id="AboutMe">
+        <h1 style="display: flex; position: absolute; top: 110%; left: 45%">About Me</h1>
+    <div id="rect1" style="height: 270px;display: flex; position:absolute; background-color: black;
+    right: 188px; top:137%;"></div>
+
+    <h2 style="display: flex; position: absolute; left: 10%;
+    margin-top: 60%; margin-right:50%;text-align: justify; font-size: 24px;">
+        I'm an undergraduate student,
+        currently pursuing my B.tech degree. I'm extremely inclined towards front-end development, but have also done interesting projects in Python. I enjoy experimenting
+        with ideas, inspired by several veterans in the industry.
+
+        I'm working on becoming a skilled professional in the field,
+        so I'm open to all opportunities^^ <br><br>
+        <!-- Feel free to look through my projects and contact me here. -->
+    </h2>
+
+    <div id="rect1" style="height: 270px;display: flex; position: absolute; background-color: #85E6C5; right: 200px; top:135%; border: 4px solid #000;"></div>
+    <img class="myimg2" src="profpicw.jpg">
+</div>
+
+<div id="Project">
+    <h1 style="display: flex; position: absolute; top: 210%; left: 47%">Projects</h1>
+
+    <!-- Project 1 -->
+    <div id="prec2"></div>
+    <div id="prec1"></div>
+    <img src="cmsss.png" class="myimg3">
+    <h3 style="display: flex; position: absolute; right: 10%;
+    margin-top: 112%; margin-left:53%;text-align: justify; font-size: 18px;">
+        A comprehensible and easily navigable software was developed to help ease small scale clinics out of their 
+        traditional register system into today's world of convenience. With 3 user modes, admins can manage all 
+        the accounts of the clinic's staff, while the receptionists can admit a patient (old or new) for a 
+        consultation quickly, depending on their state of emergency. Doctors can enter medical data, view the 
+        patient queue and accordingly save time and resources. 
+        This software was developed in a scrum team.
+    </h3>
+
+    <!-- Project 2 -->
+    <div id="prec4"></div>
+    <div id="prec3"></div>
+    <img src="traffic.png" class="myimg4">
+    <h3 style="display: flex; position: absolute; left: 10%;
+    margin-top: 148%; margin-right:50%;text-align: justify; font-size: 18px;">
+        Developed a web application that incorporated front-end design, rerouting algorithms, 
+        Flask framework and real-time traffic data APIs to suggest optimal routes, based on an 
+        assumed dataset. Users can look up for the most time-efficient route from a source to a 
+        destination, which is entirely calculated based on real-time traffic in the area with 
+        factors such as distance and flow of traffic. 
+    </h3>
+
+    <!-- Project 3 -->
+    <div id="prec6"></div>
+    <div id="prec5"></div>
+    <img src="music.jpg" class="myimg5">
+    <h3 style="display: flex; position: absolute; right: 10%;
+    margin-top: 180%; margin-left:53%;text-align: justify; font-size: 18px;">
+        Developed an application that generates melodies that dynamically adapt to the user's liking. 
+        Primarily utilises Genetic Algorithms to alter musical sequences, trains and predicts 
+        how well a user may like the generated melody using a Random Forest Classifier and 
+        incorporates Gradient Descent algorithms to calculate fitness of musical sequences.
+    </h3>
+
+    </div>
+    <div id="footerbox">
+    <h2 style="display: flex; position:absolute; align-content: center; left: 20%; font-weight: 300;font-size: 36px;">Always Ready for new projects and new challenges!<br><br></h2>
+    <h3 style="display: flex; position:absolute; align-content: center; left:40%; top: 30%; font-weight: 500;font-size: 40px;">Contact me here!</h3>
+    <div class="container"><div class="footer-col">
+        <div class="social-links">
+          <a href="https://github.com/sanju179"><i class="fab fa-github"></i></a>
+          <a href="mailto:sanjeevini2110282@ssn.edu.in"><i class="fa fa-mail-bulk"></i></a>
+          <a href="https://www.linkedin.com/in/sanjeevinirakesh/"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    
+    </div>
+    <h4 style="display: flex; position: relative; top: 50px; left: 100%;">Developed by me with a little inspo from Dribbble</h4>
+</div>
+
+<!-- 
+<div id="navbar">
+
+
+<a href="#mainn"><h1 style="display: flex; position:absolute;margin-top: 20px; margin-left: 48px; width: 178px; flex-wrap: wrap;">Sanjeevini</h1></a></li>
+            <a href="#" onclick="scrollFunction1()">
+                <div id="rect2" style=" display: flex; position: absolute; flex-wrap: wrap; margin-top: 2%; margin-left: 49%;"></div>
+                <div id="rect3" style=" display: flex; position: absolute; flex-wrap: wrap; margin-top: 1.5%; margin-left: 48.5%;"></div>
+                <h3 style="display: flex; position: absolute; margin-top: 2.25%; margin-left: 50%;">Home</h3> </a>
+<a href="#Project" onclick="scrollFunction2()">
+                <div id="rect2" style=" display: flex; position: absolute; flex-wrap: wrap; margin-top: 2%; margin-left: 61%;"></div>
+<div id="rect3" style=" display: flex; position: absolute; flex-wrap: wrap; margin-top: 1.5%; margin-left: 60.5%;"></div>
+<h3 style="display: flex; position: absolute; margin-top: 2.25%; margin-left: 61%;">About Me</h3> </a>
+
+<a href="#Project">
+<div id="rect2" style=" display: flex; position: absolute; flex-wrap: wrap; margin-top: 2%; margin-left: 73%;"></div>
+<div id="rect3" style=" display: flex; position: absolute; flex-wrap: wrap; margin-top: 1.5%; margin-left: 72.5%;"></div>
+<h3 style="display: flex; position: absolute; margin-top: 2.25%; margin-left: 73.5%;">Projects</h3></a>
+
+<a href="#footerbox">
+<div id="rect2" style=" display: flex; position: absolute; flex-wrap: wrap; margin-top: 2%; margin-left: 85%;"></div>
+<div id="rect3" style=" display: flex; position: absolute; flex-wrap: wrap; margin-top: 1.5%; margin-left: 84.5%;"></div>
+<h3 style="display: flex; position: absolute; margin-top: 2.25%; margin-left: 85.5%;">Contact</h3> </a>
+
+</div> -->
+
+<!-- 
+<script> 
+    /* window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    } */
+    // Get the navbar element by ID
+const navbar = document.getElementById('navbar');
+
+// Calculate the initial offset position of the navbar
+const stickyOffset = navbar.offsetTop;
+
+// Function to add/remove the "sticky" class
+function stickyNavbar() {
+if (window.pageYOffset >= stickyOffset) {
+    navbar.classList.add('sticky');
+} else {
+    navbar.classList.remove('sticky');
+}
+}
+
+// Attach the scroll event listener
+window.addEventListener('scroll', stickyNavbar);
+
+</script>
+
+<script>
+    function scrollFunction1() {
+      let e = document.getElementById("mainn");
+      e.scrollIntoView({
+        block: 'start',
+        behavior: 'smooth',
+        inline: 'start'
+      });
+    }
+
+    function scrollFunction2() {
+      let e = document.getElementById("Project");
+      e.scrollIntoView({
+        block: 'start',
+        behavior: 'smooth',
+        inline: 'start'
+      });
+    }
+</script> -->
+<script src="scripts.js"></script>
+</body>
+</html>
