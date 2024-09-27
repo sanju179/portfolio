@@ -1,4 +1,4 @@
-import { HERO_CONTENT } from '../constants';
+
 import profilePic from '../assets/prof.jpeg';
 import { motion } from "framer-motion";
 import Resumee from './Resumee';
