@@ -1,6 +1,6 @@
 import { PROJECTS } from "../constants"
 import { motion } from "framer-motion";
-
+import { TbExternalLink } from "react-icons/tb";
 
 const Projects = () => {
   return (
@@ -37,23 +37,27 @@ const Projects = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }} 
               transition={{ duration: 1 }} 
-              className="w-full max-w-xl lg:w-3/4">
+              className="w-full max-w-xl lg:w-3/4 flex justify-between items-start">
               
-              <h6 className="mb-2 font-semibold">
-                {project.title}
-              </h6>
+              <div className="flex-1">
+                <h6 className="font-semibold">
+                  {project.title} 
+                </h6>
+                <p className="mb-4 text-neutral-400">
+                  {project.description}
+                </p>
+                {project.technologies.map((tech, index) => (
+                  <span 
+                    key={index} 
+                    className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900">
+                    {tech}
+                  </span>
+                ))}
+              </div>
               
-              <p className="mb-4 text-neutral-400">
-                {project.description}
-              </p>
-              
-              {project.technologies.map((tech, index) => (
-                <span 
-                  key={index} 
-                  className="mr-2 rounded bg-neutral-900 px-2 py-1 text-sm font-medium text-purple-900">
-                  {tech}
-                </span>
-              ))}
+              <a href={project.link} className="self-start">
+                <TbExternalLink className="inline-block"/>
+              </a>
             </motion.div>
           </div>
         ))}

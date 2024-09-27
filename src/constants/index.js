@@ -29,6 +29,7 @@ export const PROJECTS = [
   {
     title: "Study of Kinetic Disorders in Neurodegenerative Diseases",
     image: project4,
+    link:"https://github.com/sanju179/fingertapping",
     description:
       "Funded Project · Final Year Project (Ongoing).",
     technologies: ["Machine Learning", "Computer Vision"],
@@ -36,6 +37,7 @@ export const PROJECTS = [
   {
     title: "Music Synthesizer A.I",
     image: project2,
+    link:"https://github.com/sanju179/synthesizer-ai",
     description:
       "Developed an app that generates adaptive melodies using Genetic Algorithms, predicts user preferences with a Random Forest Classifier, and applies Gradient Descent to evaluate sequence fitness.",
     technologies: ["Python", "Flask", "Artificial Intelligence"],
@@ -43,13 +45,15 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     image: project5,
+    link:"https://github.com/sanju179/portfolio",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
-    title: "Traffic Prediction",
+    title: "Traffic Regulation",
     image: project3,
+    link:"https://github.com/sanju179/traffic-regulation",
     description:
       "A web application using Flask framework, rerouting algorithms, and real-time traffic data APIs suggests optimal routes based on dataset, allowing users to find time-efficient routes.",
     technologies: ["Python", "Flask", "Graphs"],
@@ -57,6 +61,7 @@ export const PROJECTS = [
   {
     title: "Clinic Management System",
     image: project1,
+    link:"https://github.com/sanju179/CMS",
     description:
       "A software developed in a scrum team, for small clinics simplifies registration, admits patients, and saves time and resources, with three user modes for admins, receptionists, and doctors.",
     technologies: ["Python", "TKinter", "Data Structures"],
