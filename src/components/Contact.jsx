@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import { CONTACT } from "../constants";
 import emailjs from "emailjs-com";
 import { SERVICE_ID, TEMPLATE_ID, PUBLIC_KEY } from "./keys";
 
