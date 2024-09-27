@@ -20,7 +20,7 @@ export const EXPERIENCES = [
     year: "June 2024 - August 2024",
     role: "FSE Intern",
     company: "Fidelity Investments",
-    description: `Developed and trained Large Language Models (LLM) as a PoC (Proof of Concept).  Worked extensively as a team, engineering prompts and increasing the output of the LLM. Presented to teams in both India and US.`,
+    description: `Developed and trained Large Language Models (LLM) as a PoC (Proof of Concept).  Worked extensively as a team, engineering prompts and improving the output of the LLM. Presented to teams in both India and US.`,
     technologies: ["Python", "LangChain", "AWS", "LLM"],
   },
 ];
