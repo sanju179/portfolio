@@ -5,8 +5,8 @@ import project3 from "../assets/projects/traffic.png";
 import project4 from "../assets/projects/neuro.jpg";
 import project5 from "../assets/projects/portfolio.png";
 
-export const ABOUT_TEXT = `I'm an undergraduate student, currently pursuing my B.tech in Information Technology, graduating in 2025. I'm extremely inclined towards front-end development but have also done several interesting projects in Python. I enjoy experimenting with ideas, inspired by veterans in the industry.
-                I'm working on becoming a skilled professional in the field, and I'm open to all opportunities. Current obsession: Business Analysis.`;
+export const ABOUT_TEXT = `I'm an undergraduate student, currently pursuing my B.tech in Information Technology, graduating in 2025. I've done several interesting projects in Python. Dabbling with the 'why's' and 'how's' of the way things are allows me to never procrastinate.
+                So, this is me working out a portfolio site to answer "Why do I do tech?" and "How do I improve doing tech?". Enjoy your walkthrough and feel free to reach out for questions and opportunities!`;
 
 export const EXPERIENCES = [
   {
